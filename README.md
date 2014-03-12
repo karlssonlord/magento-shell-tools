@@ -2,11 +2,26 @@
 
 A collection of useful shell tools for Magento.
 
-## Templater
 
-    $ php templater.php copy frontend/base/default/catalog/product/view.phtml
+## Installation
+
+```bash
+$ modman clone git@github.com:karlssonlord/magento-shell-tools.git
+$ modman deploy magento-shell-tools
+```
 
 
-## Sitemapper
+## Tools
 
-    $ php sitemapper.php generate 1
+### Templater
+
+```bash
+$ php templater.php copy frontend/base/default/catalog/product/view.phtml
+```
+
+
+### Sitemapper
+
+```bash
+$ php sitemapper.php generate 1
+```
